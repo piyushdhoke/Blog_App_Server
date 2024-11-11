@@ -1,1 +1,1 @@
-{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/" }], "build":[{ "source": "/server.js", "use":"@versel/node"  }] }
+{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/" }], "build":{ "source": "/server.js", "use":"@versel/node"  } }
